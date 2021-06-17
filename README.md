@@ -1,2 +1,1 @@
-# Coding-qestions
-coding questuons
+# Coding-questions
