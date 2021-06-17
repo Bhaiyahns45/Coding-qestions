@@ -11,14 +11,18 @@ output2=NO
 '''
 def checkPangram(s):
 
+    #remove space from string
     s = s.replace(' ', '')
 
+    #creat a empty set
     k = set()
 
     for i in s:
         if i.isalpha():
             k.add(i)
 
+            
+    #check if the length of set is equal to 26
     if len(k) == 26:
         return 'Yes'
     else:
