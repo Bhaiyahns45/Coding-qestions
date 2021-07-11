@@ -2,7 +2,7 @@
 
 ## 1) C++ to Java
 
-input1= 'this_is_a_variable"
+input1= "this_is_a_variable"
 
 output1= "thisIsAVariable"
 
@@ -49,9 +49,10 @@ output= "this_is_a_variable"
 
         return ans
 
+    if __name__=='__main__':
+    
+        if '_' in input_string:
+            print(cplus_to_java(input_string))
 
-    if '_' in input_string:
-
-        print(cplus_to_java(input_string))
-    else:
-        print(java_to_cplus(input_string))
+        else:
+            print(java_to_cplus(input_string))
